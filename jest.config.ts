@@ -2,7 +2,7 @@ import type { Config } from "jest";
 
 const config: Config = {
   roots: ["<rootDir>/src"],
-  coverageProvider: "v8",
+  testMatch: ["**/?(*.)+(spec|test|espec).[tj]s?(x)"],
   collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
   coverageDirectory: "coverage",
   testEnvironment: "node",
