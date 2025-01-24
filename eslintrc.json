@@ -1,0 +1,6 @@
+{
+    "extends": "standard-with-typescript",
+    "paserserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
